@@ -1,4 +1,12 @@
-# ESCUELA POLITÉCNICA NACIONAL
+<h1 align="center">
+    Escuela Politécnica Nacional<br>
+    Facultad de Ingeniería en Sistemas<br>
+    CONSTRUCCIÓN Y EVOLUCIÓN DE SOFTWARE<br>
+</h1>
+
+---
+
+## Grupo: 4
 
 ---
 
