@@ -1,7 +1,8 @@
 <h1 align="center">
     Escuela Politécnica Nacional<br>
     Facultad de Ingeniería en Sistemas<br>
-    CONSTRUCCIÓN Y EVOLUCIÓN DE SOFTWARE<br>
+    Construcción y Evolución de Software<br>
+    
 </h1>
 
 ---

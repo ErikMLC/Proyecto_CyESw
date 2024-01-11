@@ -24,9 +24,9 @@
 8. A continuación, presiona el siguiente enlace: http://localhost/3.-Coding/.
 9. ¡Listo! Eso es todo.
 
-## Extensiones necesarias para visualizacion de artefactos en vscode
+## Extensiones necesarias para visualización de artefactos en vscode
 
-Para la visualizacion de los artefactos de la metodologia XP es necesario la instalación de las siguientes herramientas en nuestro entorno de trabajo
+Para la visualización de los artefactos de la metodologia XP es necesario la instalación de las siguientes herramientas en nuestro entorno de trabajo
 
 <br>
 
