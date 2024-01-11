@@ -27,6 +27,9 @@
 ## Extensiones necesarias para visualizacion de artefactos en vscode
 
 Para la visualizacion de los artefactos de la metodologia XP es necesario la instalación de las siguientes herramientas en nuestro entorno de trabajo
+
+<br>
+
 ![Draw Preview](/2.-Desing/assets/Drawio%20Preview.png)
 ![GitLens](/2.-Desing/assets/GitLens.png)
 ![LiveShare](/2.-Desing/assets/LiveShare.png)
