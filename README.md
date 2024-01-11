@@ -34,3 +34,12 @@ Para la visualización de los artefactos de la metodologia XP es necesario la in
 ![GitLens](/2.-Desing/assets/GitLens.png)
 ![LiveShare](/2.-Desing/assets/LiveShare.png)
 ![Kanbn](/2.-Desing/assets/Kanbn.png)
+
+## Visualización de BacklogMisAcciones
+
+- Para la visualización del tablero Kanban, es necesario presionar la combinación de teclas **Ctrl+Shift+P** en donde sera necesario inicializar el Kanbn, caso contrario si no lo solicita se presiona la opcion Kanbn: Open Board. 
+
+- Las columnas "Backlog" , “To Do”, “In Progress” y “Done” representan las diferentes etapas del ciclo de vida de una tarea.
+
+-  Este tablero se utiliza en el desarrollo de software ágil para la visualización del flujo de trabajo y el progreso de las tareas.
+
