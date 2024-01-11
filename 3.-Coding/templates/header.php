@@ -17,14 +17,15 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="estilos/styles.css">
+        <link rel="stylesheet" href="../estilos/styles.css">
         <script src="https://kit.fontawesome.com/372d41fff7.js" crossorigin="anonymous"></script>
     </head>
 
     <body class="d-flex flex-column min-vh-100 align-items-center">
-        <header class="py-3 distribucion_header min-vw-100">
+        <header class="min-vw-100">
             <div class="d-flex justify-content-center ">
-                <h1>Mis Acciones</h1>
+                Mis Acciones
             </div>
         </header>     
         
-        <main class="container flex-grow-1 d-flex flex-column justify-content-center" >
+        <main class="flex-grow-1 d-flex flex-column justify-content-center min-vw-100 align-items-center" >

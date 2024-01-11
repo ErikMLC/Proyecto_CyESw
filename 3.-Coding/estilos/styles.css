@@ -1,9 +1,27 @@
+@font-face {
+    font-family: 'Motion-font'; /* Asigna un nombre a tu fuente */
+    src: url('../assets/fonts/MotionPersonalUseBold-2O0od.ttf');
+}
 
 header{
-    background: #c2d7f8cc;
+    background: #c2d7f8;
+    border-bottom: 1px solid #466ca8;
+    font-family: 'Motion-font', sans-serif;
+    font-size: 5rem;
+}
+
+main{
+    background: rgb(194,215,248);
+    background: linear-gradient(180deg, rgba(194,215,248,1) 0%, rgba(255,255,255,1) 54%, rgba(194,215,248,1) 100%);
 }
 
 footer{
-    background: #c2d7f8cc;
+    background: #c2d7f8;
+    border-top: 1px solid #466ca8;
+    font-size: 1.3rem;
     padding: 10px;
+}
+
+.card{
+    width: 70%;
 }
