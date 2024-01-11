@@ -1,5 +1,5 @@
 </main>
-        <footer class="text-center pt-3 min-vw-100">
+        <footer class="text-center min-vw-100">
             <div class="text-center p-4">
                 © 2024 Copyright: Escuela Politécnica Nacional
             </div>

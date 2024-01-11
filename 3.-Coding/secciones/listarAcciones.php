@@ -13,6 +13,9 @@
 
         // Ejecuta la sentencia
         $sentencia -> execute();
+
+        // Redirige a la página para asegurar que se recargue
+        header("Location: index.php");
     }
 ?>
 
@@ -52,7 +55,7 @@
                         <td><?php echo $registro['cantidad_Acciones'];?></td>
                         <td><?php echo ($registro['precio_Compra']*$registro['cantidad_Acciones']);?></td>
                         <td><a name="" id="" class="btn btn-danger" href="index.php?id_Registro_Accion=<?php echo $registro['id_Registro_Accion'];?>" 
-                        role="button"> <?php echo '<i class="fa-solid fa-trash"></i>'; ?> </a> 
+                        onclick="return confirm('¿Estás seguro de que quieres eliminar este registro?');" role="button"> <?php echo '<i class="fa-solid fa-trash"></i>'; ?> </a> 
                     </tr>
 
                     <?php }?>
@@ -64,4 +67,6 @@
         
     </div>
 </div>
+
+
 

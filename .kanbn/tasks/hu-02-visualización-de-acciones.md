@@ -1,11 +1,12 @@
 ---
 created: 2023-12-30T08:01:31.280Z
-updated: 2023-12-30T08:08:41.759Z
+updated: 2024-01-11T04:33:48.217Z
 assigned: 'Erik Chalacama, Joel Delgado, Ariel Suntasig'
 progress: 0
 tags: []
-due: 2024-01-06T00:00:00.000Z
-started: 2023-12-16T00:00:00.000Z
+due: 2023-12-29T00:00:00.000Z
+started: 2023-12-15T00:00:00.000Z
+completed: 2024-01-10T00:00:00.000Z
 ---
 
 # HU-02: Visualización de Acciones
