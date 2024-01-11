@@ -58,7 +58,6 @@ El proyecto tiene como objetivo principal desarrollar una aplicación web intera
 1. La aplicación será desarrollada como una aplicación web utilizando tecnologías basadas en PHP.
 2. Deberá ser compatible con los principales navegadores web.
 3. La interfaz de usuario deberá ser intuitiva y fácil de usar.
-4. Se implementarán mecanismos de seguridad para proteger la privacidad de los usuarios y los datos ingresados.
-5. La documentación incluirá instrucciones claras sobre cómo instalar, utilizar y mantener la aplicación.
+4. La documentación incluirá instrucciones claras sobre cómo instalar, utilizar y mantener la aplicación.
 
 Este documento servirá como guía fundamental para el desarrollo del proyecto, estableciendo las metas, funcionalidades y estándares que se buscarán alcanzar en todas las etapas del ciclo de vida del software.

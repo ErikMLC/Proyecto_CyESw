@@ -12,7 +12,7 @@
 - Erik Chalacama
 - Ariel Suntasig
   
-# Pruebas de Aceptación
+# Pruebas Funcionales
  ---
 
 | **Prueba N°:** 1| **Nombre:** Registro de una acción |
