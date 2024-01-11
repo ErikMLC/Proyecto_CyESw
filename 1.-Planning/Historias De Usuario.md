@@ -1,4 +1,12 @@
-# ESCUELA POLITÉCNICA NACIONAL
+<h1 align="center">
+    Escuela Politécnica Nacional<br>
+    Facultad de Ingeniería en Sistemas<br>
+    CONSTRUCCIÓN Y EVOLUCIÓN DE SOFTWARE<br>
+</h1>
+
+---
+
+## Grupo: 4
 
 ---
 
@@ -10,7 +18,7 @@
 
 ---
 
-## Historias De Usuario del Lobito
+## Historias De Usuario de Mis Acciones
 
 | **HU-01**                   | **Título:**  Ingreso de Acciones                                                                                                                                                                     |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,4 +38,8 @@
 | **Criterio de aceptación:** | **Dado** que he ingresado el PRECIO DE COMPRA POR ACCIÓN y la CANTIDAD DE ACCIONES, **cuando** miro la tabla de ‘Mis Acciones’, **entonces** puedo ver el COSTO TOTAL DE COMPRA calculado y mostrado en la columna correspondiente. |
 |                             |
 
----
+| *HU-04*                   | **Título:** Eliminación de acciones                                                                                                                                                                     |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Historia de usuario:**    | **Como** usuario de la aplicación web, **quiero**  eliminar una acción de mi tabla de ‘Mis Acciones’, **para** quitarla de mi registro y liberar espacio.             |
+| **Criterio de aceptación:** | **Dado**  que he ingresado los datos de las acciones, **cuando** presiono ‘Eliminar’ en una acción, **entonces** la acción se elimina de la tabla y se actualiza la tabla. |
+|
