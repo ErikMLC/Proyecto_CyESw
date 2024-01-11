@@ -38,7 +38,7 @@ El proyecto tiene como objetivo principal desarrollar una aplicación web intera
 
 4. *Documentación Clara:* Generar documentación clara y completa que sirva como referencia para desarrolladores, usuarios y cualquier persona interesada en entender el propósito, funcionamiento y diseño de la aplicación.
 
-5. *Código Limpio y Mantenible:* Desarrollar un código fuente en JavaScript que sea limpio, modular y fácilmente mantenible, siguiendo las mejores prácticas de desarrollo.
+5. *Código Limpio y Mantenible:* Desarrollar un código fuente en PHP que sea limpio, modular y fácilmente mantenible, siguiendo las mejores prácticas de desarrollo.
 
 6. *Pruebas Rigurosas:* Implementar pruebas automatizadas exhaustivas para garantizar la estabilidad y la funcionalidad correcta de la aplicación en todas las etapas del desarrollo.
 
@@ -54,7 +54,7 @@ El proyecto tiene como objetivo principal desarrollar una aplicación web intera
 
 ## Requisitos Generales del Sistema
 
-1. La aplicación será desarrollada como una aplicación web utilizando tecnologías basadas en JavaScript.
+1. La aplicación será desarrollada como una aplicación web utilizando tecnologías basadas en PHP.
 2. Deberá ser compatible con los principales navegadores web.
 3. La interfaz de usuario deberá ser intuitiva y fácil de usar.
 4. Se implementarán mecanismos de seguridad para proteger la privacidad de los usuarios y los datos ingresados.

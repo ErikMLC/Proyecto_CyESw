@@ -25,5 +25,6 @@
 | **Iteración** | **Objetivo** | **Historias de usuario** | **Puntos de función** | **Fecha de entrega** |
 | ----------- | ------------ | ------------------------ | ---------------------- | -------------------- |
 | 1.0         | Ingreso de Acciones | HU-01 | 8 | 28 de diciembre de 2023 |
-| 1.1        | Visualización de Acciones | HU-02| 5 | 29 de diciembre de 2023 |
-| 1.2        | Visualización del Costo Total | HU-03| 3 | 30 de diciembre de 2023 |
+| 1.0        | Visualización de Acciones | HU-02| 5 | 29 de diciembre de 2023 |
+| 1.0        | Visualización del Costo Total | HU-03| 3 | 30 de diciembre de 2023 |
+| 1.0        | Eliminación de Acciones | HU-04| 4 | 31 de diciembre de 2023 |

@@ -40,3 +40,10 @@
 | **Criterio de aceptación:** | - El sistema debe calcular el costo total basándose en el PRECIO DE COMPRA POR ACCIÓN y la CANTIDAD DE ACCIONES. <br> - El costo total calculado debe mostrarse claramente en la tabla.  |
 | **Valor de negocio:**    | Esta tarea tiene un valor de negocio medio, ya que proporciona información útil para que los usuarios comprendan su inversión total en cada acción.
  |
+
+| **Tarjeta de Tarea 4** | **Título:**  Implementación de Eliminación de Acciones                                                                                                                                                                                                                       |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Descripción:**         | Como desarrollador, debo implementar la funcionalidad que permita al usuario eliminar una acción de su tabla de ‘Mis Acciones’, para quitarla de su registro y liberar espacio.                                                                                                        |
+| **Criterio de aceptación:** | - El sistema debe tener un botón de ‘Eliminar’ en cada fila de la tabla de ‘Mis Acciones’. <br>  |
+| **Valor de negocio:**    | Esta tarea tiene un valor de negocio bajo, ya que es una función opcional que no afecta directamente al rendimiento de las acciones.
+|
