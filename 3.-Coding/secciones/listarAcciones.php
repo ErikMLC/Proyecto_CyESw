@@ -1,8 +1,6 @@
 <?php
 include("dbConnection.php");
-$sentencia = $conexion->prepare("SELECT * FROM acciones_registradas");
-$sentencia->execute();
-$lista_tbl_acciones_registradas = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+
 
 
 if (isset($_GET["id_Registro_Accion"])) {
@@ -25,18 +23,19 @@ if (isset($_GET["id_Registro_Accion"])) {
 
         <div class="table-responsive-sm">
 
-            <table class="table table-primary text-center">
+            <table class="table table-primary text-center" id="tablaRegistros">
 
                 <div class="card-header">
-                    <a name="" id="" class="btn btn-primary" href="secciones/registrarAccion.php" role="button">Registrar nuevas acciones</a>
+                    <a name="" id="" class="btn btn-primary" href="secciones/registrarAccion.php" role="button">Registrar nuevas acciones</a>                   
                 </div>
+
 
                 <thead>
                     <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Nombre de la accion</th>
+                        <th scope="col" onclick="ordenarTablaTitulos('id')">ID</th>
+                        <th scope="col" onclick="ordenarTablaTitulos('nombre')">Nombre de la accion</th>
                         <th scope="col">Fecha de compra</th>
-                        <th scope="col">Precio de compra por acción</th>
+                        <th scope="col" onclick="ordenarTablaTitulos('precio')">Precio de compra por acción</th>
                         <th scope="col">Cantidad de acciones</th>
                         <th scope="col">Costo total de la compra</th>
                         <th scope="col">Cambio</th>
@@ -47,7 +46,8 @@ if (isset($_GET["id_Registro_Accion"])) {
 
                 <tbody>
 
-                    <?php foreach ($lista_tbl_acciones_registradas as $registro) { ?>
+                    <?php include("controladores/accionesController.php");
+                    foreach (AccionesController::getInstance()->obtenerSentenciaDeOrden() as $registro) { ?>
 
                         <tr class="">
                             <td scope="row"><?php echo $registro['id_Registro_Accion']; ?></td>
@@ -62,7 +62,7 @@ if (isset($_GET["id_Registro_Accion"])) {
                             $porcentajeCambio = calcularPorcentajeCambio($precioCompra, $precioActual);
                             ?>
                             <td><?php echo $porcentajeCambio; ?>%</td>
-                            <td><?php echo ($precioActual * $registro['cantidad_Acciones'])?></td>
+                            <td><?php echo ($precioActual * $registro['cantidad_Acciones']) ?></td>
                             <td><a name="" id="" class="btn btn-danger" href="index.php?id_Registro_Accion=<?php echo $registro['id_Registro_Accion']; ?>" onclick="return confirm('¿Estás seguro de que quieres eliminar este registro?');" role="button"> <?php echo '<i class="fa-solid fa-trash"></i>'; ?> </a>
                         </tr>
 
@@ -71,6 +71,9 @@ if (isset($_GET["id_Registro_Accion"])) {
                 </tbody>
             </table>
 
+            <div id="tabla-container" class="table-responsive-sm">
+                <!-- La tabla se generará y actualizará aquí -->
+            </div>
         </div>
 
     </div>
@@ -80,7 +83,7 @@ if (isset($_GET["id_Registro_Accion"])) {
 
 function obtenerPrecioActual($nombre_Accion)
 {
-    $api_key = '86BJBNM06266DUNQ';
+    $api_key = 'EQH4D5AGYUWM3C69';
     $api_url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=$nombre_Accion&apikey=$api_key";
 
     // Realizar la solicitud a la API
@@ -97,7 +100,8 @@ function obtenerPrecioActual($nombre_Accion)
 }
 
 
-function calcularPorcentajeCambio($precioCompra, $precioActual) {
+function calcularPorcentajeCambio($precioCompra, $precioActual)
+{
     if ($precioCompra == 0) {
         return 0; // Evitar división por cero
     }
@@ -105,4 +109,36 @@ function calcularPorcentajeCambio($precioCompra, $precioActual) {
     $resultado = (($precioActual - $precioCompra) / $precioCompra) * 100;
     return number_format($resultado, 3);
 }
+
 ?>
+
+<script>
+    function ordenarTablaTitulos(columna) {
+        const tabla = document.getElementById("tablaRegistros");
+        const tbody = tabla.querySelector("tbody");
+        const filas = Array.from(tbody.querySelectorAll("tr"));
+
+        filas.sort((a, b) => {
+            let valorA, valorB;
+
+            switch (columna) {
+                case "id":
+                    valorA = parseInt(a.cells[0].textContent.trim());
+                    valorB = parseInt(b.cells[0].textContent.trim());
+                    return valorA - valorB;
+                case "nombre":
+                    valorA = a.cells[1].textContent.trim().toLowerCase();
+                    valorB = b.cells[1].textContent.trim().toLowerCase();
+                    return valorA.localeCompare(valorB);
+                case "precio":
+                    valorA = parseFloat(a.cells[3].textContent.trim());
+                    valorB = parseFloat(b.cells[3].textContent.trim());
+                    return valorA - valorB;
+                default:
+                    return 0;
+            }
+        });
+
+        filas.forEach(fila => tbody.appendChild(fila));
+    }
+</script>
