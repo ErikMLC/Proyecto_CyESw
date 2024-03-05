@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 06-01-2024 a las 03:43:22
+-- Tiempo de generación: 04-03-2024 a las 01:34:34
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -41,7 +41,10 @@ CREATE TABLE `acciones_registradas` (
 --
 
 INSERT INTO `acciones_registradas` (`id_Registro_Accion`, `nombre_Accion`, `fecha_Compra`, `precio_Compra`, `cantidad_Acciones`, `costo_Total`) VALUES
-(1, 'Tesla', '2023-12-20', 237.49, 21, 4987.29);
+(1, 'AAPL', '2024-01-02', 125.54, 10, 1255.4),
+(2, 'MSFT', '2024-02-29', 350, 6, 2100),
+(3, 'AMZN', '2024-03-03', 25.6, 100, 2560),
+(4, 'TSLA', '2024-03-03', 523.1, 6, 3138.6);
 
 --
 -- Índices para tablas volcadas
@@ -61,7 +64,7 @@ ALTER TABLE `acciones_registradas`
 -- AUTO_INCREMENT de la tabla `acciones_registradas`
 --
 ALTER TABLE `acciones_registradas`
-  MODIFY `id_Registro_Accion` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_Registro_Accion` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
