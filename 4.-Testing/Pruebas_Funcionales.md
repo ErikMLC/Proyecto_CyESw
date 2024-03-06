@@ -52,3 +52,12 @@
 ||4. Ingresa en el tercer campo el valor de las acciones de manera escrita|
 | **Resultado Esperado** | El sistema solo deberia permitir el ingreso de caracteres numéricos. |
 
+| **Prueba N°:** 6 | **Nombre:** Ordenación de acciones registradas |
+| ------- | - |
+| **Pasos** | 1. Acceder a la página principal donde se lista las acciones registradas. |
+||2. Hacer clic en la cabecera de la columna "Nombre de la acción" para ordenar las acciones por nombre. |
+||3. Hacer clic en la cabecera de la columna "Precio de compra por acción" para ordenar las acciones por precio. |
+||4. Hacer clic en la cabecera de la columna "ID" para ordenar las acciones por ID. |
+| **Resultado Esperado** | 1. Al hacer clic en la cabecera "Nombre de la acción", el sistema debe reordenar la lista de acciones alfabéticamente por nombre. |
+||2. Al hacer clic en "Precio de compra por acción", el sistema debe reordenar la lista de acciones de menor a mayor precio. |
+||3. Al hacer clic en "ID", el sistema debe reordenar la lista de acciones por ID de forma ascendente. |

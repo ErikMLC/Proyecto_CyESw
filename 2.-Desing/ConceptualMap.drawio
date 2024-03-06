@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="MfB9fPWX3KKgamRHUnME">
+        <mxGraphModel dx="641" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="78HntFV7xOCfkFl718I4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-1" target="78HntFV7xOCfkFl718I4-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-1" target="78HntFV7xOCfkFl718I4-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-1" target="78HntFV7xOCfkFl718I4-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-1" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Mis acciones&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="78HntFV7xOCfkFl718I4-2" target="78HntFV7xOCfkFl718I4-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-2" target="78HntFV7xOCfkFl718I4-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-2" target="78HntFV7xOCfkFl718I4-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-2" target="78HntFV7xOCfkFl718I4-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-2" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Registrar Nuevas acciones&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="100" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-3" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Nombre Acción&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="190" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-4" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Fecha Compra&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="190" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-5" target="78HntFV7xOCfkFl718I4-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-5" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Precio por Acción&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="190" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-6" target="78HntFV7xOCfkFl718I4-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-6" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Cantidad de Acciones&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="190" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-7" target="78HntFV7xOCfkFl718I4-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-7" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Costo Total de la compra&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="290" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="78HntFV7xOCfkFl718I4-9" target="78HntFV7xOCfkFl718I4-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-9" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Porcentaje de Cambio&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="140" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-10" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Ganancia/Perdida&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="290" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="78HntFV7xOCfkFl718I4-11" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Eliminar Registro&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="140" width="120" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

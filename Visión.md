@@ -43,6 +43,9 @@ El proyecto tiene como objetivo principal desarrollar una aplicación web intera
 
 6. *Pruebas Rigurosas:* Implementar pruebas automatizadas exhaustivas para garantizar la estabilidad y la funcionalidad correcta de la aplicación en todas las etapas del desarrollo.
 
+7. *Visualizar el Porcentaje de Cambio:* Desarrollar una funcionalidad muestre el porcentaje de cambio en el valor de cada acción desde su compra, comparando el precio de compra con el precio actual del mercado. Esto permitirá a los usuarios evaluar rápidamente el rendimiento de sus inversiones y tomar decisiones informadas sobre la gestión de su cartera
+
+8. *Calcular y Visualizar Ganancias o Pérdidas:* Implementar una solución que calcule y visualice la ganancia o pérdida monetaria para cada acción en la cartera del usuario, basada en las fluctuaciones del mercado reflejadas por el porcentaje de cambio.
 ## Alcance
 
  El alcance del proyecto incluirá, pero no se limitará a:
@@ -50,6 +53,8 @@ El proyecto tiene como objetivo principal desarrollar una aplicación web intera
 - Una interfaz de usuario amigable que permita al usuario ingresar los datos de las acciones que compra.
 - Una tabla que muestre los datos de las acciones registradas por el usuario.
 - Una funcionalidad que calcule el costo total de compra de cada acción.
+- Una funcionalidad que muestre el porcentaje de cambio de acuerdo a los valores de las acciones en el mercado
+- Una funcionalidad que calcule la perdida o ganancia en cada acción 
 - Documentación técnica y de usuario detallada.
 - Pruebas automatizadas para garantizar la fiabilidad y la precisión de la aplicación.
 
