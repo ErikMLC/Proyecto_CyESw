@@ -16,7 +16,7 @@ if ($_POST) {
         //Calcular total de acciones vendidas
         $total = $precioPorAccion * $cantidadDeAcciones;
 
-        //Preparación para incerción de datos
+        //Preparación para inserción de datos
         $sentencia = $conexion->prepare("INSERT INTO acciones_registradas(id_Registro_Accion, nombre_Accion, fecha_Compra, precio_Compra, cantidad_Acciones, costo_Total) 
         VALUES (NULL, :nombreDeAccion, :fechaDeCompra, :precioAccion, :cantidadDeAcciones, :total)");
 
@@ -27,8 +27,15 @@ if ($_POST) {
         $sentencia->bindParam(":cantidadDeAcciones", $cantidadDeAcciones);
         $sentencia->bindParam(":total", $total);
 
-        // Ejecuta la sentencia
-        $sentencia->execute();
+         // Ejecuta la sentencia
+         if ($sentencia->execute()) {
+            // Redirige a index.php después de insertar el registro
+            header("Location: ../index.php");
+            exit();
+        } else {
+            // Manejar error en la ejecución de la sentencia
+            echo '<script>alert("Hubo un error al registrar la acción.");</script>';
+        }
     }
 }
 
