@@ -47,3 +47,17 @@
 | **Criterio de aceptación:** | - El sistema debe tener un botón de ‘Eliminar’ en cada fila de la tabla de ‘Mis Acciones’. <br>  |
 | **Valor de negocio:**    | Esta tarea tiene un valor de negocio bajo, ya que es una función opcional que no afecta directamente al rendimiento de las acciones.
 |
+
+
+| **Tarjeta de Tarea 5** | **Título:** Implementación de Visualización del Porcentaje de Cambio                                                                                                                                                                                                                 |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Descripción:**         | Como desarrollador, debo implementar la funcionalidad que muestre el porcentaje de cambio de valor desde la compra para cada acción en la tabla de 'Mis Acciones' en la aplicación web.                                                                                                        |
+| **Criterio de aceptación:** | - El porcentaje de cambio debe calcularse comparando el precio actual de mercado con el precio de compra. <br> - El porcentaje de cambio debe mostrarse en la tabla de 'Mis Acciones' junto a cada acción. <br> - Los valores positivos deben indicar un aumento y los negativos una disminución en el valor. |
+| **Valor de negocio:**    | Esta tarea tiene un valor de negocio alto, ya que proporciona información crítica para que los usuarios evalúen el rendimiento actual de sus inversiones. |
+
+
+| **Tarjeta de Tarea 6** | **Título:** Implementación de Cálculo y Visualización de Ganancias/Pérdidas                                                                                                                                                                                                                     |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Descripción:**         | Como desarrollador, debo implementar la funcionalidad que calcule y muestre la ganancia o pérdida monetaria para cada acción en la tabla de 'Mis Acciones', basándose en el porcentaje de cambio.                                                                                                 |
+| **Criterio de aceptación:** | - El sistema debe calcular la ganancia o pérdida multiplicando el porcentaje de cambio por el costo total de la compra. <br> - La ganancia o pérdida calculada debe mostrarse claramente junto a cada acción en la tabla. <br> - Se debe considerar un cambio en tiempo real del precio de las acciones para este cálculo. |
+| **Valor de negocio:**    | Esta tarea tiene un valor de negocio medio-alto, ya que ofrece a los usuarios una comprensión inmediata de las implicaciones financieras de los cambios en el mercado de sus inversiones. |
